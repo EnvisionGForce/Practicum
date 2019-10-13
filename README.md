@@ -4,6 +4,6 @@
 
 **Members:** Thomas Harris, Jacbob Metoxen, Eric Schulte, Seth Starr
 
-**Project Description:** Lateral G-Force Display (Direction and magnitude)
-
 **Advisor:** Andrew Greenberg
+
+**Project Description:** Lateral G-Force Display (Direction and magnitude)
