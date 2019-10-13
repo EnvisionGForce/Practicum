@@ -6,4 +6,4 @@
 
 **Advisor:** Andrew Greenberg
 
-**Project Description:** Lateral G-Force Display (Direction and magnitude)
+**Project Description:** Intuitive Lateral G-Force Display (Direction and magnitude)
