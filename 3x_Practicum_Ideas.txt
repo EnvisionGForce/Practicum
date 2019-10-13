@@ -1,0 +1,16 @@
+Envision GForce (Team 16)
+10/17/2019
+ECE 411
+HW 2: 3x Practicum Ideas
+
+1. Chosen idea: Intuitive Lateral G-Force Display (Direction and magnitude)
+
+This device will display the direction and magnitude of lateral acceleration vectors. A basic conceptual description of the output display can be seen on the left side in this video: https://www.youtube.com/watch?v=zJRh9FG83d0. 
+
+The purpose is to intuitively and instantaneously convey the direction and magnitude of the lateral acceleration acting upon the device (or an object the device is attached to).
+
+The sensor will be an accelerometer, or a set of accelerometers, which will output direction and magnitude data to the processor. We plan on using either the ATMega328 or the ATMega32U4 for the processor in our device. The actuator will either be a matrix of LEDs, or perhaps an LCD screen if we can figure out the necessary coding.
+
+Our initial idea is to have a '*-shaped' matrix consisting of 3-5 LEDs on each of the 6 lobes. Each lobe will indicate a rough direction, and the number of illuminated LEDs will indicate magnitude. It would be cool to also display the magnitude numerically using an LCD or 7-segment display.
+
+2.
