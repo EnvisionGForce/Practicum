@@ -1,6 +1,9 @@
 # ECE411 Practicum Project
 
-Repository for PSU ECE411 Practicum Team (Envision GForce)
+**Team:** Envision GForce (Team 16)
+
+**Members:** Thomas Harris, Jacbob Metoxen, Eric Schulte, Seth Starr
 
 **Project Description:** Lateral G-Force Display (Direction and magnitude)
 
+**Advisor:** Andrew Greenberg
