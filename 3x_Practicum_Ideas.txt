@@ -15,4 +15,4 @@ Our initial idea is to have a '*-shaped' matrix consisting of 3-5 LEDs on each o
 
 2. Weather Station
 
-This device will function as a mini weather station that can display temperature, wind speed, wind direction, and humidity. The various sensors will interface with a microcontroller and display to an LCD on the device. The sensors needed should be readily available and relatively easy to interface with. If possible, this device could also connect to the internet and be able to display weather info on a website.
+This device will function as a mini weather station that can display temperature, wind speed, wind direction, and humidity. The various sensors will interface with a microcontroller and display to an LCD on the device. The sensors needed should be readily available and relatively easy to interface with. If possible, this device could also connect to the internet and be able to display weather info on a website. Since this device will need to be outside it must be in a weather proof case.
