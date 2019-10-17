@@ -13,4 +13,6 @@ The sensor will be an accelerometer, or a set of accelerometers, which will outp
 
 Our initial idea is to have a '*-shaped' matrix consisting of 3-5 LEDs on each of the 6 lobes. Each lobe will indicate a rough direction, and the number of illuminated LEDs will indicate magnitude. It would be cool to also display the magnitude numerically using an LCD or 7-segment display.
 
-2.
+2. Weather Station
+
+This device will function as a mini weather station that can display temperature, wind speed, wind direction, and humidity. The various sensors will interface with a microcontroller and display to an LCD on the device. The sensors needed should be readily available and relatively easy to interface with. If possible, this device could also connect to the internet and be able to display weather info on a website.
