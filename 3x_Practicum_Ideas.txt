@@ -16,3 +16,12 @@ Our initial idea is to have a '*-shaped' matrix consisting of 3-5 LEDs on each o
 2. Weather Station
 
 This device will function as a mini weather station that can display temperature, wind speed, wind direction, and humidity. The various sensors will interface with a microcontroller and display to an LCD on the device. The sensors needed should be readily available and relatively easy to interface with. If possible, this device could also connect to the internet and be able to display weather info on a website. Since this device will need to be outside it must be in a weather proof case.
+
+
+3. Drone
+
+This device would be able to stabalize itself in the air. It would not be able to be controlled by a user but would instead be able to perform a set of instructions that are pre-programmed, such as follow the nearest object in motion or a line on the floor/wall. 
+
+The sensors required would be an accelerometer for the motion data to be interpreted by the rest of the flight controller, the processor, a button or buttons to control the desired task upon takeoff, and several motors equipped with propellers. 
+
+
