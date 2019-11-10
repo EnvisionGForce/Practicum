@@ -91,3 +91,24 @@ Issues:
 
 Need to have a good idea of the size of the final product so that we can order an enclosure
 Need to complete designs so that we can write our BOM
+
+Week 7
+
+Last Week:
+
+Coding
+Order PCB and enclosure 
+Create BOM
+
+Next Week:
+
+Finsih BOM
+Finish LED code
+Write LED test code
+test LEDs
+Work on accelerometer code
+
+Issues:
+
+Had to choose SPI for Arduino code; SPI more suitable for our application.
+Need to continue figuring out Arduino code.
