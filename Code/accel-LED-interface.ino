@@ -12,10 +12,10 @@ float y = -4;   // Example of y-component of input vector
 float angle;    // angle variable
 float mag;      // magnitude variable
 
-if (x>0) {              // If x-component is within cartesian quadrant 1 or 4
+if (x>0) {              // If vector is within cartesian quadrant 1 or 4
   angle = atan(x/y);    // (In radians)
 }
-else {                  // If x-component is within cartesian quadrant 2 or 3
+else {                  // If vector is within cartesian quadrant 2 or 3
   angle = atan(x/y) + PI; // (In radians)
 }
 
