@@ -112,3 +112,4 @@ Issues:
 
 Had to choose SPI for Arduino code; SPI more suitable for our application.
 Need to continue figuring out Arduino code.
+How are we going to supply test values to Arduino code for verifaction prior to connecting ADXL345, (file i/o)?
