@@ -1,8 +1,13 @@
 /* What I have so far. 
 Determines cartesian direction (in radians) and magnitude 
 of input vector from ADXL345 in the form: x, y (ex: 25,-53).
+
 Color selection section determines LED color based on magnitude.
-(Need to add categorization for direction, to select individual LED) */
+
+Need to add:
+  - categorization for direction, to select individual LED
+  - Initialization code for Adafruit (easy, copy and paste)
+  - Test vectors, (file i/o)? */
 
 void setup() {
   // put your setup code here, to run once:
