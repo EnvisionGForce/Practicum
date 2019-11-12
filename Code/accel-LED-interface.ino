@@ -1,8 +1,8 @@
 /* What I have so far. 
 Determines cartesian direction (in radians) and magnitude 
 of input vector from ADXL345 in the form: x, y (ex: 25,-53).
-Need to add categorization for magnitude and direction,
-to select particular LED and color. */
+Color selection section determines LED color based on magnitude.
+(Need to add categorization for direction, to select individual LED) */
 
 void setup() {
   // put your setup code here, to run once:
@@ -23,7 +23,36 @@ mag = sqrt(sq(x)+sq(y));  // Determines magnitude (independent of cartesian quad
 
 Serial.println(angle, 8); // Display direction (in radians)
 Serial.println(mag, 4);   // Display magnitude
+  
 
+/*----- COLOR SELECTION SECTION -----*/
+// Determines LED color based on mag
+
+  if (mag<128) {  // 0-.5 G
+    strip.setPixelColor(i, 0, 255, 0);     //  Set i-th pixel to Green
+    strip.show();
+  }
+  else if (mag<256) {   //.5-1 G
+    strip.setPixelColor(i, 124, 252, 0);     //  Set i-th pixel to Green-yellow
+    strip.show();
+  }
+  else if (mag<384) {   //1-1.5 G
+    strip.setPixelColor(i, 255, 255, 0);     //  Set i-th pixel to Yellow
+    strip.show();
+  }
+  else if (mag<512) {   //1.5-2 G
+    strip.setPixelColor(i, 225, 100, 0);     //  Set i-th pixel to Yellow-Orange
+    strip.show();
+  }
+  else if (mag<641) {   //2-2.5 G
+    strip.setPixelColor(i, 255, 50, 0);     //  Set i-th pixel to Orange
+    strip.show();
+  }
+  else (mag<769) {   //2.5-3 G
+    strip.setPixelColor(i, 255, 0, 0);     //  Set i-th pixel to Red
+    strip.show();
+  }
+  
 }
 
 void loop() {
