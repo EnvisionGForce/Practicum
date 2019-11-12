@@ -30,27 +30,27 @@ Serial.println(mag, 4);   // Display magnitude
 
   if (mag<128) {  // 0-.5 G
     strip.setPixelColor(i, 0, 255, 0);     //  Set i-th pixel to Green
-    strip.show();
+    strip.show();                          //  Turn on LED
   }
   else if (mag<256) {   //.5-1 G
-    strip.setPixelColor(i, 124, 252, 0);     //  Set i-th pixel to Green-yellow
-    strip.show();
+    strip.setPixelColor(i, 124, 252, 0);   //  Set i-th pixel to Green-yellow
+    strip.show();                          //  Turn on LED
   }
   else if (mag<384) {   //1-1.5 G
-    strip.setPixelColor(i, 255, 255, 0);     //  Set i-th pixel to Yellow
-    strip.show();
+    strip.setPixelColor(i, 255, 255, 0);   //  Set i-th pixel to Yellow
+    strip.show();                          //  Turn on LED
   }
   else if (mag<512) {   //1.5-2 G
-    strip.setPixelColor(i, 225, 100, 0);     //  Set i-th pixel to Yellow-Orange
-    strip.show();
+    strip.setPixelColor(i, 225, 100, 0);   //  Set i-th pixel to Yellow-Orange
+    strip.show();                          //  Turn on LED
   }
   else if (mag<641) {   //2-2.5 G
-    strip.setPixelColor(i, 255, 50, 0);     //  Set i-th pixel to Orange
-    strip.show();
+    strip.setPixelColor(i, 255, 50, 0);    //  Set i-th pixel to Orange
+    strip.show();                          //  Turn on LED
   }
   else (mag<769) {   //2.5-3 G
     strip.setPixelColor(i, 255, 0, 0);     //  Set i-th pixel to Red
-    strip.show();
+    strip.show();                          //  Turn on LED
   }
   
 }
