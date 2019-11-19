@@ -79,12 +79,12 @@ Last Week:
 Made Schedule
 Received Parts
 Continued building prototype and started writing code
-Laid out PCB
+Layout PCB
 
 Next Week:
 
 Continue coding and testing prototype
-Order PCB and enclosure
+Finish PCB design
 Create BOM
 
 Issues:
@@ -97,7 +97,7 @@ Week 7
 Last Week:
 
 Coding
-Order PCB and enclosure 
+Layout PCB 
 Create BOM
 
 Next Week:
@@ -113,3 +113,21 @@ Issues:
 Had to choose SPI for Arduino code; SPI more suitable for our application.
 Need to continue figuring out Arduino code.
 How are we going to supply test values to Arduino code for verifaction prior to connecting ADXL345, (file i/o)?
+
+Week 8
+
+Last Week:
+
+Finish BOM
+LED coding and testing, revised code as necessary.
+Began focusing on accelerometer code
+Had issues with supplying test code
+
+Next Week:
+
+Order PCB and enclosure
+Continue testing LEDs and begin testing Accelerometer code
+
+Issues:
+
+We still need to make sure we can supply the right data for our tests.
