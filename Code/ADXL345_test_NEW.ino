@@ -41,7 +41,7 @@ void loop() {
  
   int foo_x = x, foo_y = y; 
 
-//------------------------Computations and LED assignment-------------------------------
+//---------------------------Computations and LED assignment----------------------------
   if (x>0) {              // If x-component is within cartesian quadrant 1 or 4
     angle = atan2(x, y);    // (In radians)
   }
