@@ -63,7 +63,7 @@ void loop() {
   Serial.println(mag, 4);   // Display magnitude
 
   while (foo_x == x && foo_y == y) {
-    adxl.readAccel(&x, &y, &z);   // Poll the accelerometer
+    adxl.readAccel(&x, &y, &z);   // Poll accelerometer output data
   }
   
   //delay(160); //160 = 1 sample per 1 print. 80 = 1 sample per 2 prints. etc...
