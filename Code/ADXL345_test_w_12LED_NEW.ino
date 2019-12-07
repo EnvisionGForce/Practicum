@@ -31,7 +31,7 @@ Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
 
 void setup() {
 
-  Serial.begin(9600);               // Start the serial terminal, set baud rate
+  //Serial.begin(9600);               // Start the serial terminal, set baud rate
   
   adxl.powerOn();                   // Power on the ADXL345
 
