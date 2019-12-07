@@ -48,7 +48,7 @@ void setup() {
 
   strip.begin();                    // INITIALIZE NeoPixel strip object (REQUIRED)
   strip.show();                     // Turn OFF all pixels ASAP
-  strip.setBrightness(10);          // Set BRIGHTNESS to about 1/5 (max = 255)
+  strip.setBrightness(50);          // Set BRIGHTNESS to about 1/5 (max = 255)
 
   adxl.readAccel(&x, &y, &z);       // Read the accelerometer values and store them in variables declared above x,y,z
 
