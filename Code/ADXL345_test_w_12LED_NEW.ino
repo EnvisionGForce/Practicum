@@ -165,7 +165,7 @@ void loop() {
   while (foo_x == x && foo_y == y) {  // Polling loop (sits here waiting for new and different values) 
     adxl.readAccel(&x, &y, &z);   
     
-    while (abs(x)<10 && abs(y)<70) {  // Set LED activation threshold
+    while (abs(x)<10 && abs(y)<10) {  // Set LED activation threshold
     adxl.readAccel(&x, &y, &z);   
     strip.setPixelColor(LED_off, 0, 0, 0);
     strip.show();
